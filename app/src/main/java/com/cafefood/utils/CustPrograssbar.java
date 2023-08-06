@@ -26,7 +26,6 @@ public class CustPrograssbar {
     public void closePrograssBar() {
         if (progressDialog != null) {
             try {
-
                 progressDialog.cancel();
             } catch (Exception e) {
             }
